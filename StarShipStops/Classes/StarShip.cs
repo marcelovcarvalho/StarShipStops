@@ -79,6 +79,7 @@ namespace StarShipStops.Classes
         ///     The maximum time the starship can provide of consumables in hours, and
         ///     MGLT, which reprents the starship speed
         ///
+        ///    
         /// </summary>
         /// <param name="distance"></param>
         /// <returns>A int with the number of stops. Returns -1 if it is not possible to determine how many stops are needed.</returns>
