@@ -3,10 +3,12 @@ Gets All Starship and prints how many stops are required to make a trip of given
 If not possible, prints "Unable to determine"
 
 
-#USAGE
+## USAGE
+
 When you open the program it asks you for the distance you want to calculate the stops required. Input that number representing the distance and the system will give the stops for each Starship. When you are done, just press the ENTER key to exit.
 
-#EXAMPLE
+## EXAMPLE
+
 Please input the distance: 
 1000000
 A-wing: 49
