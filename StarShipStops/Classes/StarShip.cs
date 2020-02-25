@@ -22,7 +22,7 @@ namespace StarShipStops.Classes
         }
 
         /// <summary>
-        /// Converts the consumables of a SpaceShip to Hours
+        /// Converts the consumables of a StarShip to Hours
         /// </summary>
         /// <returns>Returns a INT containing the number of hours the consumables will last. Returns -1 if it's not possible to determine.</returns>
         private int GetConsumablesInHours()
@@ -74,7 +74,11 @@ namespace StarShipStops.Classes
         }
 
         /// <summary>
-        /// Calculates how many stops a SpaceShip needs give a distance
+        /// Calculates how many stops a StarShip needs give a distance.
+        /// To Calculate how many stops are required:
+        ///     The maximum time the starship can provide of consumables in hours, and
+        ///     MGLT, which reprents the starship speed
+        ///
         /// </summary>
         /// <param name="distance"></param>
         /// <returns>A int with the number of stops. Returns -1 if it is not possible to determine how many stops are needed.</returns>
